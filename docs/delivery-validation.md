@@ -88,3 +88,7 @@ ESP-IDF5.5.4，ESP32-C3/8MiB/无PSRAM。重新配置发现原主manifest没有�
 原生UI日夜14场景通过，包括100%/0%/未知/无效范围的标签更新；IDF5.5.4构建通过，打包8项通过。设备仅0x10000应用区更新3888352字节，写后Hash校验通过；当前读数99%、4162mV，CW2017版本0x0F，启动/联网正常。本次不擦设置，未重跑播放验收。
 
 最新补充包release/lizhi-1.0-battery-9eb78d5d/；app SHA256 `9eb78d5dd723ee45314e64426c7e192cddbe315ee89692da6f966538eb3215ee`，完整8MiB SHA256 `80f4d566c1a1b560a9968783aea1144097c6461b95738f843ac7f55879e66978`。旧release/lizhi-1.0保留为此前全片烧录产物，不覆盖旧包和历史证据。本次BSP电量驱动与参考源一致，共用UI为有意迁移；原143来源129一致/14有意差异，原清单不改。原始日志.local-backup/battery-{build,flash,startup,source-check,package-tests}.log。
+
+## GitHub仓库交付及文档同步
+
+2026-11-12T17:36:26+08:00 / Ubuntu 开发电脑：已按用户追加授权发布[https://github.com/PhoenixZHC/folotoy-lizhifm](https://github.com/PhoenixZHC/folotoy-lizhifm) main，交付基准9597bc1；仓库dist/提供最新1.0电量版完整/app及SHA256。README为下载和首次操作入口；此前未发布、待配网等语句仅描述对应历史阶段。仓库交付打包8通过/0失败，入口链接无失效，BIN哈希一致，未重跑设备验收。本轮仅文档与知识库更新，保留已知限制。

@@ -21,3 +21,7 @@
 主机夹具与 NVS/HTTP stub 仅由 `tools/run_lizhi_tests.py` 或基线测试入口编译，不进入设备生产构建。详细协议、存储与验收边界见 `docs/account-and-settings.md`、`docs/follow-sync.md`、`docs/playback-position.md`。
 
 电量：荔枝app_main初始化BSP CW2017（复用参考项目默认4.2V参数），应用任务每5秒采样，render在BSP锁内原位更新右上角电量标签；标签删除回调清指针，避免重建页面后悬挂。百分比独立于Wi-Fi在线状态，未知显示--%。
+
+## 仓库交付边界
+
+生产与参考共用目录保留以满足CMake引用；dist/仅当前正式BIN和校验清单，release/及.local-backup/为忽略的本地产物。README为下载、首次使用和可移植构建入口。仓库整理未改变运行架构。
