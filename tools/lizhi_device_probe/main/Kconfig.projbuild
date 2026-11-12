@@ -1,0 +1,29 @@
+menu "Lizhi read-only device probe"
+config LIZHI_PROBE_FOLLOW_OWNER
+    string "Website-verified user ID for read-only follow pagination (empty disables)"
+    default ""
+config LIZHI_PROBE_PLAYBACK
+    bool "Play the verified public episode for 30 seconds"
+    default n
+    help
+        Enables real speaker output at volume 25. No account or progress writes.
+config LIZHI_PROBE_AUTHOR_ID
+    string "Public author ID"
+    default "5036275272706175532"
+    help
+        Real public sample supplied by the user, not an account follow list.
+config LIZHI_PROBE_EPISODE_ID
+    string "Public episode ID"
+    default "3243638952740496390"
+config LIZHI_PROBE_WIFI_NAMESPACE
+    string "Existing Wi-Fi NVS namespace (read only)"
+    default "netease_wifi"
+    help
+        Read only ssid/password from the reference player's provisioning.
+        Does not read account sessions, erase NVS or create configuration.
+config LIZHI_PROBE_POSITION
+    bool "Validate real seek and local progress persistence"
+    default n
+    help
+        Writes only the real latest local listening position. No account or Wi-Fi writes.
+endmenu

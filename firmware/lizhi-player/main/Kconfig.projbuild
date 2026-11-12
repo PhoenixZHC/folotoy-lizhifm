@@ -1,0 +1,17 @@
+menu "Lizhi player"
+config LIZHI_SERIAL_TEST
+    bool "Enable local serial acceptance controls (test builds only)"
+    default n
+config LIZHI_ACCOUNT_USER_ID
+    string "Account user ID verified by official website login (not a credential)"
+    default ""
+config LIZHI_PUBLIC_AUTHOR_ID
+    string "Public sample author ID"
+    default "5036275272706175532"
+config LIZHI_PUBLIC_AUTHOR_NAME
+    string "Public sample author name"
+    default "出逃在即"
+config LIZHI_WIFI_NAMESPACE
+    string "Existing Wi-Fi configuration namespace (read only)"
+    default "netease_wifi"
+endmenu

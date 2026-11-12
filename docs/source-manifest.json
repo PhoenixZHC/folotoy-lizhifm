@@ -1,0 +1,868 @@
+{
+  "schema_version": 1,
+  "copied_at": "2026-11-10T11:00:15+08:00",
+  "source_root": "/home/phoenix/code/folotoy-wangyiyun",
+  "source_commit": "f369b3b5f46fa325bca5c81952bd547bb68aec23",
+  "source_remote": "https://github.com/PhoenixZHC/FoloToy-wyy-musicplayer",
+  "note": "按已跟踪文件白名单复制当前文件内容；保持原文件名和构建入口，尚未移植荔枝功能。源工作区已有的根目录文档改动未复制。",
+  "files": [
+    {
+      "source": "firmware/ai-passport/.gitignore",
+      "destination": "firmware/ai-passport/.gitignore",
+      "sha256": "6bf1fb2519f97a537a4dbfd336b542791178b2d5a088ff4e3fc22868e1eaee8e",
+      "bytes": 67
+    },
+    {
+      "source": "firmware/ai-passport/CMakeLists.txt",
+      "destination": "firmware/ai-passport/CMakeLists.txt",
+      "sha256": "786cb755325bbbd7f807ea673935f71f3f11dfc7f1562198c228bca10b6263c2",
+      "bytes": 181
+    },
+    {
+      "source": "firmware/ai-passport/LICENSE",
+      "destination": "firmware/ai-passport/LICENSE",
+      "sha256": "0ca7f3a382d5d681ced06d6008081c1d51b05a2547c94c3350058efbe7ddb5ee",
+      "bytes": 1064
+    },
+    {
+      "source": "firmware/ai-passport/components/bsp/CMakeLists.txt",
+      "destination": "firmware/ai-passport/components/bsp/CMakeLists.txt",
+      "sha256": "631cd566d7221fd8918efe4ad150739458468c76a68d91baa4de00b674931598",
+      "bytes": 326
+    },
+    {
+      "source": "firmware/ai-passport/components/bsp/idf_component.yml",
+      "destination": "firmware/ai-passport/components/bsp/idf_component.yml",
+      "sha256": "a23abb8bf5fe1f86199eb29af4b90b8ed4fc0b8ca5c9aed86a2eca2157f00043",
+      "bytes": 158
+    },
+    {
+      "source": "firmware/ai-passport/components/bsp/include/bsp_audio.h",
+      "destination": "firmware/ai-passport/components/bsp/include/bsp_audio.h",
+      "sha256": "ff9f22575882d071828dc907cafc5b808b58b03e72cf632a9c27b533db98fd00",
+      "bytes": 1149
+    },
+    {
+      "source": "firmware/ai-passport/components/bsp/include/bsp_battery.h",
+      "destination": "firmware/ai-passport/components/bsp/include/bsp_battery.h",
+      "sha256": "651790178978fca57a43701a057397a0a55a154f8a09c3fdef44187de0397a5f",
+      "bytes": 566
+    },
+    {
+      "source": "firmware/ai-passport/components/bsp/include/bsp_button.h",
+      "destination": "firmware/ai-passport/components/bsp/include/bsp_button.h",
+      "sha256": "aea1b894d98592b1fd33ab22aad133d2974bfb28255f90a58799a7f9767c0501",
+      "bytes": 1172
+    },
+    {
+      "source": "firmware/ai-passport/components/bsp/include/bsp_display.h",
+      "destination": "firmware/ai-passport/components/bsp/include/bsp_display.h",
+      "sha256": "b4ba99678123e5cbcc0b0e99eb7dd9a02bdca1c3b6b8865b2967ed6fdd564dd2",
+      "bytes": 1585
+    },
+    {
+      "source": "firmware/ai-passport/components/bsp/include/bsp_i2c.h",
+      "destination": "firmware/ai-passport/components/bsp/include/bsp_i2c.h",
+      "sha256": "fa44fb728377f4099236f0c1b807ff453b1b413440c86245b426431c34a25697",
+      "bytes": 797
+    },
+    {
+      "source": "firmware/ai-passport/components/bsp/include/bsp_pins.h",
+      "destination": "firmware/ai-passport/components/bsp/include/bsp_pins.h",
+      "sha256": "45c3205d0f2f334f5e36532ed06016b44cf2b2e87e3520b43aec7ff294221b30",
+      "bytes": 3846
+    },
+    {
+      "source": "firmware/ai-passport/components/bsp/src/bsp_audio.c",
+      "destination": "firmware/ai-passport/components/bsp/src/bsp_audio.c",
+      "sha256": "4d62ee87cc94c2339b715dac47f455ae3c3bc5d227c6dff1073729d8d375bcc0",
+      "bytes": 7498
+    },
+    {
+      "source": "firmware/ai-passport/components/bsp/src/bsp_battery.c",
+      "destination": "firmware/ai-passport/components/bsp/src/bsp_battery.c",
+      "sha256": "0b701fb32329a78dd4c5e706afec4e637a8205d3dc1c6a5d6ca09bdc9e006b78",
+      "bytes": 2791
+    },
+    {
+      "source": "firmware/ai-passport/components/bsp/src/bsp_button.c",
+      "destination": "firmware/ai-passport/components/bsp/src/bsp_button.c",
+      "sha256": "c2f8b257f22da62bc0bde94446bfeb64e4eb9333015cfaf09e06c3e11465413c",
+      "bytes": 4648
+    },
+    {
+      "source": "firmware/ai-passport/components/bsp/src/bsp_display.c",
+      "destination": "firmware/ai-passport/components/bsp/src/bsp_display.c",
+      "sha256": "fc0d05ad8ce62a03b971d11da0bc7f43943a03ecd32327535cfab1f70df639e6",
+      "bytes": 6371
+    },
+    {
+      "source": "firmware/ai-passport/components/bsp/src/bsp_display_lvgl.c",
+      "destination": "firmware/ai-passport/components/bsp/src/bsp_display_lvgl.c",
+      "sha256": "c655c1839a1087405012e7b8868d35a3172e6b92f0e470496bc6468f3ef1f25f",
+      "bytes": 1900
+    },
+    {
+      "source": "firmware/ai-passport/components/bsp/src/bsp_i2c.c",
+      "destination": "firmware/ai-passport/components/bsp/src/bsp_i2c.c",
+      "sha256": "1dda44aa8eead0fbc3d79ecd815766c89e799165a483b79eee681ae6cbd0c9bd",
+      "bytes": 2771
+    },
+    {
+      "source": "firmware/ai-passport/dependencies.lock",
+      "destination": "firmware/ai-passport/dependencies.lock",
+      "sha256": "82da8ef18fc3d82955dd0ef4d4d52638784c9fe04772b1e6800b5ec4d5949ed2",
+      "bytes": 2279
+    },
+    {
+      "source": "firmware/ai-passport/main/CMakeLists.txt",
+      "destination": "firmware/ai-passport/main/CMakeLists.txt",
+      "sha256": "7a57b09a5ccd7a80572250295a0dfebe51792a8c6e35d04dc4f938310ca44fd3",
+      "bytes": 1252
+    },
+    {
+      "source": "firmware/ai-passport/main/Kconfig.projbuild",
+      "destination": "firmware/ai-passport/main/Kconfig.projbuild",
+      "sha256": "5d27f696e41c759151fd17ca43bb97ee07068e9784fbfe21467f9106c453cf48",
+      "bytes": 270
+    },
+    {
+      "source": "firmware/ai-passport/main/demo.h",
+      "destination": "firmware/ai-passport/main/demo.h",
+      "sha256": "b0f26a0b5580bec95bea3418305d20306834bfd2e2f870473838d90ef7b65374",
+      "bytes": 1604
+    },
+    {
+      "source": "firmware/ai-passport/main/demo_audio.c",
+      "destination": "firmware/ai-passport/main/demo_audio.c",
+      "sha256": "513f913a8928f310ec03785e1e33c05db20a6e41f6f8a537e2ced8cbe186b9e6",
+      "bytes": 4920
+    },
+    {
+      "source": "firmware/ai-passport/main/demo_battery.c",
+      "destination": "firmware/ai-passport/main/demo_battery.c",
+      "sha256": "ec79cdde7f13dba78de0c69bded01d9e05fdb036a754816a5ae1832fc7ca1937",
+      "bytes": 2005
+    },
+    {
+      "source": "firmware/ai-passport/main/demo_ble.c",
+      "destination": "firmware/ai-passport/main/demo_ble.c",
+      "sha256": "958a1f7cf04663e8df716855dc0675b8d0b5abfc1634e34673fff6a58d824fe4",
+      "bytes": 6090
+    },
+    {
+      "source": "firmware/ai-passport/main/demo_button.c",
+      "destination": "firmware/ai-passport/main/demo_button.c",
+      "sha256": "d0b47f59e08784f8adf16693747c51356a0f3110c7d9243bcfcd929170ad11f3",
+      "bytes": 2557
+    },
+    {
+      "source": "firmware/ai-passport/main/demo_display.c",
+      "destination": "firmware/ai-passport/main/demo_display.c",
+      "sha256": "ca1efe97908b1e79ebfb6b0829273ae969be240eb4b3a11cb91e890486c26c9a",
+      "bytes": 2452
+    },
+    {
+      "source": "firmware/ai-passport/main/demo_low_power.c",
+      "destination": "firmware/ai-passport/main/demo_low_power.c",
+      "sha256": "b4474b73aabf40acd8f259082041ff3fdfcb9e6199b412b964f46d324b71eaee",
+      "bytes": 5949
+    },
+    {
+      "source": "firmware/ai-passport/main/demo_radio.c",
+      "destination": "firmware/ai-passport/main/demo_radio.c",
+      "sha256": "a45fdfc1b71f64ea01603766e6d6375047356bf00fe97b2557b6b3d018128f97",
+      "bytes": 1024
+    },
+    {
+      "source": "firmware/ai-passport/main/demo_radio.h",
+      "destination": "firmware/ai-passport/main/demo_radio.h",
+      "sha256": "924a7c49ddc6075785b62bd574c89658d0d65b5c9a17186a98fe66e0e98b42ba",
+      "bytes": 302
+    },
+    {
+      "source": "firmware/ai-passport/main/demo_wifi.c",
+      "destination": "firmware/ai-passport/main/demo_wifi.c",
+      "sha256": "b7497708a82104397538052b542ed66c3e323e825c3aaaebfe1c61ffac16a5b4",
+      "bytes": 6203
+    },
+    {
+      "source": "firmware/ai-passport/main/device_music_ui.c",
+      "destination": "firmware/ai-passport/main/device_music_ui.c",
+      "sha256": "20602fda3e0e15102e5dbf24ba627ad350f2a2bb5389942262dfe07786ed8589",
+      "bytes": 33636
+    },
+    {
+      "source": "firmware/ai-passport/main/device_music_ui.h",
+      "destination": "firmware/ai-passport/main/device_music_ui.h",
+      "sha256": "48cb57a1c5d7adf464a9ecb3e36effb2c0d058a3a3761dc433fdf101a0b67696",
+      "bytes": 6133
+    },
+    {
+      "source": "firmware/ai-passport/main/device_music_ui_spec.c",
+      "destination": "firmware/ai-passport/main/device_music_ui_spec.c",
+      "sha256": "d6d02fb16c83db11e21c0349ceadbf282a62f1d7055334b1b34eb9cae6411d26",
+      "bytes": 7942
+    },
+    {
+      "source": "firmware/ai-passport/main/device_music_ui_spec.h",
+      "destination": "firmware/ai-passport/main/device_music_ui_spec.h",
+      "sha256": "3fe276e6071459dddcc83960694673f95f6a1dabf9160fc260b8179587f2d7d3",
+      "bytes": 2585
+    },
+    {
+      "source": "firmware/ai-passport/main/display_policy.c",
+      "destination": "firmware/ai-passport/main/display_policy.c",
+      "sha256": "21747629b0f8579db7368f9ecb93e9cd3eb162571c715a98fb1cb0799bfb9a67",
+      "bytes": 1697
+    },
+    {
+      "source": "firmware/ai-passport/main/display_policy.h",
+      "destination": "firmware/ai-passport/main/display_policy.h",
+      "sha256": "e3f2f7283518a97bb36ee1a684da134e649fd197f084191be23a582d42fb5001",
+      "bytes": 893
+    },
+    {
+      "source": "firmware/ai-passport/main/display_settings.c",
+      "destination": "firmware/ai-passport/main/display_settings.c",
+      "sha256": "e6c59d432d265d9c329b72477f53e6dc87b5ee27cbc270a18d867986513035c4",
+      "bytes": 4693
+    },
+    {
+      "source": "firmware/ai-passport/main/display_settings.h",
+      "destination": "firmware/ai-passport/main/display_settings.h",
+      "sha256": "8caa9fa458b695ee3a1fc982835ac51cadeec64c40625e2ba87a2d3d7d860f28",
+      "bytes": 646
+    },
+    {
+      "source": "firmware/ai-passport/main/fonts/font-licenses/Nimbus-Roman.txt",
+      "destination": "firmware/ai-passport/main/fonts/font-licenses/Nimbus-Roman.txt",
+      "sha256": "1315a62758a603a3e6e87a79b8389563789c59c1740b9db8bc2b20e2e2145458",
+      "bytes": 52517
+    },
+    {
+      "source": "firmware/ai-passport/main/fonts/font-licenses/Noto-CJK.txt",
+      "destination": "firmware/ai-passport/main/fonts/font-licenses/Noto-CJK.txt",
+      "sha256": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b",
+      "bytes": 14712
+    },
+    {
+      "source": "firmware/ai-passport/main/fonts/netease_ui_font_10.c",
+      "destination": "firmware/ai-passport/main/fonts/netease_ui_font_10.c",
+      "sha256": "579355fa68be61196086ce8932e5b8a187cfdadd1cc862e5283336923c9ce324",
+      "bytes": 1538418
+    },
+    {
+      "source": "firmware/ai-passport/main/fonts/netease_ui_font_12.c",
+      "destination": "firmware/ai-passport/main/fonts/netease_ui_font_12.c",
+      "sha256": "7b7dc739448a5799d70db5218c01eb4ed2eaf430b828daa01c76404f06e30d89",
+      "bytes": 1818107
+    },
+    {
+      "source": "firmware/ai-passport/main/fonts/netease_ui_font_13.c",
+      "destination": "firmware/ai-passport/main/fonts/netease_ui_font_13.c",
+      "sha256": "6a8d8ff47a530b6b003525e7889653070e166b803cd348d4fa727fda9bd6ec3d",
+      "bytes": 142335
+    },
+    {
+      "source": "firmware/ai-passport/main/fonts/netease_ui_font_14.c",
+      "destination": "firmware/ai-passport/main/fonts/netease_ui_font_14.c",
+      "sha256": "559df3c1a8a0928a6d1580334d0f81cbe37980af25a2ac09b53740ca54989e13",
+      "bytes": 2147483
+    },
+    {
+      "source": "firmware/ai-passport/main/fonts/netease_ui_font_17.c",
+      "destination": "firmware/ai-passport/main/fonts/netease_ui_font_17.c",
+      "sha256": "11df7eacde97374cc14652a60c6ab8530e3a2c57fd05829736a53657f3d28bf1",
+      "bytes": 197088
+    },
+    {
+      "source": "firmware/ai-passport/main/fonts/netease_ui_font_18.c",
+      "destination": "firmware/ai-passport/main/fonts/netease_ui_font_18.c",
+      "sha256": "95f3c85e385d6e7f3b3005d221e64e60b38b7185dba52da4f3002511eafa40f7",
+      "bytes": 211154
+    },
+    {
+      "source": "firmware/ai-passport/main/fonts/netease_ui_font_22.c",
+      "destination": "firmware/ai-passport/main/fonts/netease_ui_font_22.c",
+      "sha256": "9b2dc9a53bdd522847683c30dc869569145cef9a6d09349f6fe214a714775c94",
+      "bytes": 270159
+    },
+    {
+      "source": "firmware/ai-passport/main/fonts/netease_ui_font_24.c",
+      "destination": "firmware/ai-passport/main/fonts/netease_ui_font_24.c",
+      "sha256": "f0b413276fb66f9ed4534c71c7856101f0124643fa2998d7d5240084fdc7452d",
+      "bytes": 4587473
+    },
+    {
+      "source": "firmware/ai-passport/main/fonts/netease_ui_font_43.c",
+      "destination": "firmware/ai-passport/main/fonts/netease_ui_font_43.c",
+      "sha256": "be8c62ed8489fb1124a6ce460cfa841f09f8dfd9f0cf5614333b3c29d9c3507a",
+      "bytes": 50194
+    },
+    {
+      "source": "firmware/ai-passport/main/fonts/netease_ui_font_46.c",
+      "destination": "firmware/ai-passport/main/fonts/netease_ui_font_46.c",
+      "sha256": "ce18790fd3498363c335e8d94817004bc6a284494303fe01d944a8a99c61b9ed",
+      "bytes": 3246
+    },
+    {
+      "source": "firmware/ai-passport/main/fonts/netease_ui_font_60.c",
+      "destination": "firmware/ai-passport/main/fonts/netease_ui_font_60.c",
+      "sha256": "5e31160f1a890db559086c9f7a92e974749393773584568027dda3c0b1ee802f",
+      "bytes": 12573
+    },
+    {
+      "source": "firmware/ai-passport/main/fonts/netease_ui_font_8.c",
+      "destination": "firmware/ai-passport/main/fonts/netease_ui_font_8.c",
+      "sha256": "cb31287d1f843a6e7e82e8258ab64fd6ee3e66f9746c2239f5130d9edfb4570e",
+      "bytes": 93493
+    },
+    {
+      "source": "firmware/ai-passport/main/fonts/netease_ui_font_80.c",
+      "destination": "firmware/ai-passport/main/fonts/netease_ui_font_80.c",
+      "sha256": "511ae981e958ec6d39ed2d457083516dcba2fee855770edbe18a9411c102abaf",
+      "bytes": 17969
+    },
+    {
+      "source": "firmware/ai-passport/main/fonts/netease_ui_font_9.c",
+      "destination": "firmware/ai-passport/main/fonts/netease_ui_font_9.c",
+      "sha256": "30c9713c0261d778aa425d693a285de5161b565a8b72c7b708ce45e8781015a1",
+      "bytes": 1383886
+    },
+    {
+      "source": "firmware/ai-passport/main/fonts/scheme_b_font_manifest.json",
+      "destination": "firmware/ai-passport/main/fonts/scheme_b_font_manifest.json",
+      "sha256": "2396c6bad2dbfd7351357f531608c535aba4b31d7b10074f141b3a7d53774543",
+      "bytes": 5316
+    },
+    {
+      "source": "firmware/ai-passport/main/idf_component.yml",
+      "destination": "firmware/ai-passport/main/idf_component.yml",
+      "sha256": "94aa5e07bbbd140952fe061cf090f7bf0dcdf6be9c62005b3a23afd424546cbd",
+      "bytes": 559
+    },
+    {
+      "source": "firmware/ai-passport/main/main.c",
+      "destination": "firmware/ai-passport/main/main.c",
+      "sha256": "87e5b91bc8d5ff6337238328291aa29baa204e7ff3ba5acceae9e9535b1feab1",
+      "bytes": 4378
+    },
+    {
+      "source": "firmware/ai-passport/main/music_artwork.c",
+      "destination": "firmware/ai-passport/main/music_artwork.c",
+      "sha256": "b7ba7909d862af600d48fbb7879e6d0859492612011bbd2a6743c1c3589545ba",
+      "bytes": 3912
+    },
+    {
+      "source": "firmware/ai-passport/main/music_artwork.h",
+      "destination": "firmware/ai-passport/main/music_artwork.h",
+      "sha256": "5b9f851442fab3a8ce72309e316fa0540306737960a391b71d954e3062d92f39",
+      "bytes": 208
+    },
+    {
+      "source": "firmware/ai-passport/main/music_lyrics.c",
+      "destination": "firmware/ai-passport/main/music_lyrics.c",
+      "sha256": "242375be8b4e99cc325199eebc9a3e12f29ca6cf3f0978f82c961a40fd00414a",
+      "bytes": 1830
+    },
+    {
+      "source": "firmware/ai-passport/main/music_lyrics.h",
+      "destination": "firmware/ai-passport/main/music_lyrics.h",
+      "sha256": "91e9fa7d5561a3d626e7fcca568d67a55e8b8cdd01ad98ff9279bf761a5ed5e9",
+      "bytes": 222
+    },
+    {
+      "source": "firmware/ai-passport/main/netease_app.c",
+      "destination": "firmware/ai-passport/main/netease_app.c",
+      "sha256": "15efabfa6f320b0ec01a25a4164b4f11ca43ed966e7550ef69b5a055797a5842",
+      "bytes": 73669
+    },
+    {
+      "source": "firmware/ai-passport/main/netease_app.h",
+      "destination": "firmware/ai-passport/main/netease_app.h",
+      "sha256": "7d3e4da15d8b89fbefc6911abe579d379f4276d66970a136edc6aa932aac0c1e",
+      "bytes": 335
+    },
+    {
+      "source": "firmware/ai-passport/main/netease_app_logic.c",
+      "destination": "firmware/ai-passport/main/netease_app_logic.c",
+      "sha256": "a4fd33ad3777f7b4442c66208cb9cc143488187cb31d4d1bc37d15c5b4520acc",
+      "bytes": 9531
+    },
+    {
+      "source": "firmware/ai-passport/main/netease_app_logic.h",
+      "destination": "firmware/ai-passport/main/netease_app_logic.h",
+      "sha256": "e4d7d1fe1c97d6ad6e304637249ffbf2be53a84dc6db811a75262098df58569a",
+      "bytes": 3221
+    },
+    {
+      "source": "firmware/ai-passport/main/netease_direct_adapter.c",
+      "destination": "firmware/ai-passport/main/netease_direct_adapter.c",
+      "sha256": "d9ec114de0847a66d6d304b547b95ab2bb109f6b318aed1177e43b3722b64dc8",
+      "bytes": 4650
+    },
+    {
+      "source": "firmware/ai-passport/main/netease_direct_adapter.h",
+      "destination": "firmware/ai-passport/main/netease_direct_adapter.h",
+      "sha256": "e0061272f5d932405149db2507f3523774814f354452003bc56be7c049a4f0fc",
+      "bytes": 640
+    },
+    {
+      "source": "firmware/ai-passport/main/ui_pixel.c",
+      "destination": "firmware/ai-passport/main/ui_pixel.c",
+      "sha256": "0065505661cd05eeb88fdde5263395e20b959b7d86886575633d1344d1a3ed58",
+      "bytes": 5036
+    },
+    {
+      "source": "firmware/ai-passport/main/ui_pixel.h",
+      "destination": "firmware/ai-passport/main/ui_pixel.h",
+      "sha256": "510d8f68020eb8489d469288daafb8f4b9e2bc622320f949bbaca3d49658fca9",
+      "bytes": 835
+    },
+    {
+      "source": "firmware/ai-passport/main/ui_pixel_math.c",
+      "destination": "firmware/ai-passport/main/ui_pixel_math.c",
+      "sha256": "7f3472149b4eb1a088e78e6bd2d1e9fdb2fbb2558087cb50cd3195d71dfdb68f",
+      "bytes": 342
+    },
+    {
+      "source": "firmware/ai-passport/main/ui_pixel_math.h",
+      "destination": "firmware/ai-passport/main/ui_pixel_math.h",
+      "sha256": "f86483a7d7bb700ad05154a3173ebb2ae6263e12defcd040f59edf8ef491b3b0",
+      "bytes": 124
+    },
+    {
+      "source": "firmware/ai-passport/main/wifi_provisioning_logic.c",
+      "destination": "firmware/ai-passport/main/wifi_provisioning_logic.c",
+      "sha256": "5f4267e517425923a9b905105207c9b639b8486d1d838e131aab850e93a1d2fd",
+      "bytes": 5690
+    },
+    {
+      "source": "firmware/ai-passport/main/wifi_provisioning_logic.h",
+      "destination": "firmware/ai-passport/main/wifi_provisioning_logic.h",
+      "sha256": "f67649ed47f618e6903095251a55d5685c00d080cf25066bd913dd9940ee31e9",
+      "bytes": 2542
+    },
+    {
+      "source": "firmware/ai-passport/main/wifi_provisioning_page.c",
+      "destination": "firmware/ai-passport/main/wifi_provisioning_page.c",
+      "sha256": "07426bb9e8015e9905ad528315551597b831a41b54982cec45bf77f717e2e418",
+      "bytes": 19212
+    },
+    {
+      "source": "firmware/ai-passport/main/wifi_provisioning_page.h",
+      "destination": "firmware/ai-passport/main/wifi_provisioning_page.h",
+      "sha256": "5249d20af067ae83b0344f5c88ca37dfd8482ee07fc716c360fbc7f5eaab7f86",
+      "bytes": 519
+    },
+    {
+      "source": "firmware/ai-passport/main/wifi_provisioning_portal.c",
+      "destination": "firmware/ai-passport/main/wifi_provisioning_portal.c",
+      "sha256": "fdb540afaffecc613becfdc6fb16bd55101d443b1703b6fe1ae2d9fb791a13ee",
+      "bytes": 12647
+    },
+    {
+      "source": "firmware/ai-passport/main/wifi_provisioning_portal.h",
+      "destination": "firmware/ai-passport/main/wifi_provisioning_portal.h",
+      "sha256": "99d03c6ff0ed69a3e7962cae9270e58176b8c4e8813644059b239ec6f5b87bce",
+      "bytes": 757
+    },
+    {
+      "source": "firmware/ai-passport/partitions.csv",
+      "destination": "firmware/ai-passport/partitions.csv",
+      "sha256": "18f6b442062f3ab71947a3178c7f6d7d6b01915e083b1aa5bd033d65cac1324c",
+      "bytes": 182
+    },
+    {
+      "source": "firmware/ai-passport/sdkconfig.defaults",
+      "destination": "firmware/ai-passport/sdkconfig.defaults",
+      "sha256": "acc4e6c019a5f19c26d46577d6a624197923398471299fd188f479bbc7a50c12",
+      "bytes": 1617
+    },
+    {
+      "source": "firmware/ai-passport/sdkconfig.direct.defaults",
+      "destination": "firmware/ai-passport/sdkconfig.direct.defaults",
+      "sha256": "b95fa10ca0718fbfd829987e302a319629d81b38c31dd7b623bd30cad6e19fa1",
+      "bytes": 957
+    },
+    {
+      "source": "firmware/ai-passport/tests/audio_download_stubs.h",
+      "destination": "firmware/ai-passport/tests/audio_download_stubs.h",
+      "sha256": "a203cec9b434556c25308c48bab0ed2dfed4340e94be230c7c2d0101a0e06af5",
+      "bytes": 2727
+    },
+    {
+      "source": "firmware/ai-passport/tests/direct_stubs/esp_crt_bundle.h",
+      "destination": "firmware/ai-passport/tests/direct_stubs/esp_crt_bundle.h",
+      "sha256": "465369864768e89c133b9ffd5002eaaa84dc107e7bbb17cb0eede3dacdca1db2",
+      "bytes": 81
+    },
+    {
+      "source": "firmware/ai-passport/tests/direct_stubs/esp_err.h",
+      "destination": "firmware/ai-passport/tests/direct_stubs/esp_err.h",
+      "sha256": "ea4cf771a23f19a80a890d612b70200eb0ceae790fc6156fb21d35d1596a330a",
+      "bytes": 348
+    },
+    {
+      "source": "firmware/ai-passport/tests/direct_stubs/esp_http_client.h",
+      "destination": "firmware/ai-passport/tests/direct_stubs/esp_http_client.h",
+      "sha256": "992881700e40c829bde90c0b472520341bbbe9d0665e2b63c461333aa6031695",
+      "bytes": 1346
+    },
+    {
+      "source": "firmware/ai-passport/tests/direct_stubs/esp_log.h",
+      "destination": "firmware/ai-passport/tests/direct_stubs/esp_log.h",
+      "sha256": "259615791b92651722c074bacd6f8b86c863f6f4de704a53e8f48aaf90fee951",
+      "bytes": 184
+    },
+    {
+      "source": "firmware/ai-passport/tests/direct_stubs/esp_mac.h",
+      "destination": "firmware/ai-passport/tests/direct_stubs/esp_mac.h",
+      "sha256": "f4ad679ccb378452add8bc906ecaa3356fe406f0e87ebea2388308fe6a48f6cb",
+      "bytes": 287
+    },
+    {
+      "source": "firmware/ai-passport/tests/direct_stubs/nvs.h",
+      "destination": "firmware/ai-passport/tests/direct_stubs/nvs.h",
+      "sha256": "b31d3b17b62012181c462704d3c7a876be7ba39d4e5af31d47e8cc91a3c590c9",
+      "bytes": 450
+    },
+    {
+      "source": "firmware/ai-passport/tests/test_audio_download.c",
+      "destination": "firmware/ai-passport/tests/test_audio_download.c",
+      "sha256": "e37d55b84f64afeb2bbd65d821bf44cef0e5bb69066fd5b42760b99eaf611e34",
+      "bytes": 9474
+    },
+    {
+      "source": "firmware/ai-passport/tests/test_audio_stream.c",
+      "destination": "firmware/ai-passport/tests/test_audio_stream.c",
+      "sha256": "f63fcf5251cb19281432b1a9e85df17b7ef9bfa321aa2833dfdf32430440e34d",
+      "bytes": 2744
+    },
+    {
+      "source": "firmware/ai-passport/tests/test_device_music_ui_spec.c",
+      "destination": "firmware/ai-passport/tests/test_device_music_ui_spec.c",
+      "sha256": "afdf4d008ffd420ee9925c162a41efd38bd1ca196ec8971c0cf391148d73ee02",
+      "bytes": 3901
+    },
+    {
+      "source": "firmware/ai-passport/tests/test_display_policy.c",
+      "destination": "firmware/ai-passport/tests/test_display_policy.c",
+      "sha256": "60b31d2642096e501202b89ce080530a662c5e04a796a8c054ab48518095e60b",
+      "bytes": 2055
+    },
+    {
+      "source": "firmware/ai-passport/tests/test_music_lyrics.c",
+      "destination": "firmware/ai-passport/tests/test_music_lyrics.c",
+      "sha256": "43df36409a9d2d37fbb3b53bbcf8345d9f578a4015d5395b59d6676f6fb65f61",
+      "bytes": 1033
+    },
+    {
+      "source": "firmware/ai-passport/tests/test_netease_app_logic.c",
+      "destination": "firmware/ai-passport/tests/test_netease_app_logic.c",
+      "sha256": "81a9cd37959023dc24f9eb310201c00e3dd8a36be6e1021a6dc657fbf8d46c54",
+      "bytes": 5595
+    },
+    {
+      "source": "firmware/ai-passport/tests/test_netease_client.c",
+      "destination": "firmware/ai-passport/tests/test_netease_client.c",
+      "sha256": "4ba712b3a9ecf81ee6352a179a6cac400597fe52fd8ebf041661f5f02d8f4edf",
+      "bytes": 3461
+    },
+    {
+      "source": "firmware/ai-passport/tests/test_netease_direct_client.c",
+      "destination": "firmware/ai-passport/tests/test_netease_direct_client.c",
+      "sha256": "ce094099f92d2b8d1af667f58c42166f317334ac18ecd71c52f129d028d52a48",
+      "bytes": 10432
+    },
+    {
+      "source": "firmware/ai-passport/tests/test_netease_direct_http.c",
+      "destination": "firmware/ai-passport/tests/test_netease_direct_http.c",
+      "sha256": "920a29ca2bf88176835ba5808dbc8723819a7f0353047f087617676d0e5acb38",
+      "bytes": 16232
+    },
+    {
+      "source": "firmware/ai-passport/tests/test_netease_direct_memory.c",
+      "destination": "firmware/ai-passport/tests/test_netease_direct_memory.c",
+      "sha256": "36133797ede185ec6c167e88bc10a85be9bbfa40f01ff95eaeb85f50e9bde9f5",
+      "bytes": 2621
+    },
+    {
+      "source": "firmware/ai-passport/tests/test_package_release.py",
+      "destination": "firmware/ai-passport/tests/test_package_release.py",
+      "sha256": "611f763daf7510f2a0fa712179a677eb4199f6f534e6ce7face991238a1c9be0",
+      "bytes": 4365
+    },
+    {
+      "source": "firmware/ai-passport/tests/test_scheme_b_fonts.py",
+      "destination": "firmware/ai-passport/tests/test_scheme_b_fonts.py",
+      "sha256": "bdbe1c41c5546d1c2bda64b82fb68be0f0a41e7390220884324b60700052a789",
+      "bytes": 3088
+    },
+    {
+      "source": "firmware/ai-passport/tests/test_ui_pixel_math.c",
+      "destination": "firmware/ai-passport/tests/test_ui_pixel_math.c",
+      "sha256": "c65dac3b3de8312a7cdb1f13bfb9ac020af9bb57f331107f781348b73b1ce619",
+      "bytes": 470
+    },
+    {
+      "source": "firmware/ai-passport/tests/test_wifi_provisioning_logic.c",
+      "destination": "firmware/ai-passport/tests/test_wifi_provisioning_logic.c",
+      "sha256": "936240c26f816022f1ebe6c5020bc5790a4f4828b6c11dd12717363543d99f9e",
+      "bytes": 5068
+    },
+    {
+      "source": "firmware/ai-passport/tests/test_wifi_provisioning_portal.c",
+      "destination": "firmware/ai-passport/tests/test_wifi_provisioning_portal.c",
+      "sha256": "d1011f035b450af9fc870ccb278bcad4231f1166f826d0441e6b6a2d46c16360",
+      "bytes": 2599
+    },
+    {
+      "source": "firmware/ai-passport/tests/ui_preview/CMakeLists.txt",
+      "destination": "firmware/ai-passport/tests/ui_preview/CMakeLists.txt",
+      "sha256": "2520d485e554a22f821b92f3961123ba3e232a1d3fca4d1ea26f5443201e6893",
+      "bytes": 941
+    },
+    {
+      "source": "firmware/ai-passport/tests/ui_preview/README.md",
+      "destination": "firmware/ai-passport/tests/ui_preview/README.md",
+      "sha256": "803a11384f5711df6933d9228fc3ae0a444734b0476240e52c4608658a53f406",
+      "bytes": 2764
+    },
+    {
+      "source": "firmware/ai-passport/tests/ui_preview/README.zh_CN.md",
+      "destination": "firmware/ai-passport/tests/ui_preview/README.zh_CN.md",
+      "sha256": "1088d085768504dcc29b1e72472e251a7ac7e62703d46551c454064d19d95e11",
+      "bytes": 2415
+    },
+    {
+      "source": "firmware/ai-passport/tests/ui_preview/bsp_battery.h",
+      "destination": "firmware/ai-passport/tests/ui_preview/bsp_battery.h",
+      "sha256": "cf78df09ee261b5ef0e2f68e3f27251ce9ff1b8c9ca218f901e5b8016af24733",
+      "bytes": 40
+    },
+    {
+      "source": "firmware/ai-passport/tests/ui_preview/lv_conf.h",
+      "destination": "firmware/ai-passport/tests/ui_preview/lv_conf.h",
+      "sha256": "a675e79d8eeb07bea7038c31d3e2b19bb0881fb7464bc849629caa1cdc714aaf",
+      "bytes": 726
+    },
+    {
+      "source": "firmware/ai-passport/tests/ui_preview/main.c",
+      "destination": "firmware/ai-passport/tests/ui_preview/main.c",
+      "sha256": "3e913a7d0eac00b0658f1be69c7b2c2cb505e26a5d3944bfabe8eb9f748335af",
+      "bytes": 16721
+    },
+    {
+      "source": "firmware/ai-passport/tests/ui_preview/render_gallery.py",
+      "destination": "firmware/ai-passport/tests/ui_preview/render_gallery.py",
+      "sha256": "31077590f1432357fcaebb761c9644a824c273d2c04fd5f411ca429977af3467",
+      "bytes": 1790
+    },
+    {
+      "source": "firmware/ai-passport/tools/check_repo.py",
+      "destination": "firmware/ai-passport/tools/check_repo.py",
+      "sha256": "6e3aa914477ebb71db214cf9586434808f91ddfbce8d6c594635b86abbf99b93",
+      "bytes": 12171
+    },
+    {
+      "source": "firmware/ai-passport/tools/generate_device_fonts.py",
+      "destination": "firmware/ai-passport/tools/generate_device_fonts.py",
+      "sha256": "27d3fd173a1528bb928ccdecff6ecad46a83b28d9ae064b4fb5128e6346e67af",
+      "bytes": 6125
+    },
+    {
+      "source": "firmware/ai-passport/tools/generate_scheme_b_fonts.py",
+      "destination": "firmware/ai-passport/tools/generate_scheme_b_fonts.py",
+      "sha256": "954486fb05cdb043b0133b3d1a1f437dab17a3b7372a33d6e8289a74df778bde",
+      "bytes": 11326
+    },
+    {
+      "source": "firmware/ai-passport/tools/install-actionlint.sh",
+      "destination": "firmware/ai-passport/tools/install-actionlint.sh",
+      "sha256": "5d78c57e3bd2bf28747f7efb4141d52070ff494a92d2f1ea5158c1cfc108226c",
+      "bytes": 2148
+    },
+    {
+      "source": "firmware/ai-passport/tools/package_release.py",
+      "destination": "firmware/ai-passport/tools/package_release.py",
+      "sha256": "1cf3ed6721d64b1849c56ccd4d8fe9b648d8cc285b513eb12b6888afc8584439",
+      "bytes": 4276
+    },
+    {
+      "source": "firmware/ai-passport/tools/render_device_music_ui_preview.py",
+      "destination": "firmware/ai-passport/tools/render_device_music_ui_preview.py",
+      "sha256": "9fc3174fe72bfb14aa49c717d9f0369b69b7257137d33cd0b6e5ef0cc00295a4",
+      "bytes": 10425
+    },
+    {
+      "source": "firmware/ai-passport/tools/run_audio_download_tests.sh",
+      "destination": "firmware/ai-passport/tools/run_audio_download_tests.sh",
+      "sha256": "56b30b1cc98cbba479c44784cb35512575808c45b332f7d2996d2ee07d36d4b0",
+      "bytes": 796
+    },
+    {
+      "source": "firmware/ai-passport/tools/run_direct_host_tests.sh",
+      "destination": "firmware/ai-passport/tools/run_direct_host_tests.sh",
+      "sha256": "e7b67bb13eaa05a63d3f5278899a2130b7b2060e572c6bbb0927d4c6d6b32edc",
+      "bytes": 1632
+    },
+    {
+      "source": "firmware/ai-passport/tools/run_passportsim.cjs",
+      "destination": "firmware/ai-passport/tools/run_passportsim.cjs",
+      "sha256": "0f1a3ad31de5290fa1867392e1513e0d6e1a3afbbd9c8ada9a309fede2dcffbd",
+      "bytes": 8845
+    },
+    {
+      "source": "firmware/ai-passport/tools/validate.sh",
+      "destination": "firmware/ai-passport/tools/validate.sh",
+      "sha256": "a7980c76ca7d5bfe596fe172ac3db22608484c0dbcf15f839a66a2a398b8c428",
+      "bytes": 5178
+    },
+    {
+      "source": "firmware/ai-passport/tools/verify_firmware.py",
+      "destination": "firmware/ai-passport/tools/verify_firmware.py",
+      "sha256": "4bcf434b0da60c50f0fe70989aeec92e9781cb93f54ecc8581160785e69e5875",
+      "bytes": 1763
+    },
+    {
+      "source": "firmware/components/audio_stream/CMakeLists.txt",
+      "destination": "firmware/components/audio_stream/CMakeLists.txt",
+      "sha256": "8951523bda2be763cbb7b700d430265bc8addaed472f42b8b91afb1e66094332",
+      "bytes": 217
+    },
+    {
+      "source": "firmware/components/audio_stream/audio_download.c",
+      "destination": "firmware/components/audio_stream/audio_download.c",
+      "sha256": "72fa3da1e78e0042f724a9417d923541deac1bad7d12e5d0f8a414997f85c791",
+      "bytes": 10807
+    },
+    {
+      "source": "firmware/components/audio_stream/audio_download.h",
+      "destination": "firmware/components/audio_stream/audio_download.h",
+      "sha256": "839767c8087e24ad7a2ddcd625dfeeb2aa25d7b69260a499e8e47be2293843d1",
+      "bytes": 679
+    },
+    {
+      "source": "firmware/components/audio_stream/audio_stream.c",
+      "destination": "firmware/components/audio_stream/audio_stream.c",
+      "sha256": "70471568e5290d6d40bc2818fe187bd8cf4f464b7878d56a290fd9e7962ee280",
+      "bytes": 15754
+    },
+    {
+      "source": "firmware/components/audio_stream/audio_stream_policy.c",
+      "destination": "firmware/components/audio_stream/audio_stream_policy.c",
+      "sha256": "c509fad470250f000655211bae21f7c6e920be8f3465f31b59c26398f2d5e8e6",
+      "bytes": 1754
+    },
+    {
+      "source": "firmware/components/audio_stream/audio_stream_policy.h",
+      "destination": "firmware/components/audio_stream/audio_stream_policy.h",
+      "sha256": "c1a81fd1718b36a9fa3d38e3b38e0a35caaf01a07c731d750b848fd59d1193f6",
+      "bytes": 560
+    },
+    {
+      "source": "firmware/components/audio_stream/idf_component.yml",
+      "destination": "firmware/components/audio_stream/idf_component.yml",
+      "sha256": "48c3274ed04c2be4f9730038f2ae0ca2cf71bb214aec3497d993711ae494d92d",
+      "bytes": 76
+    },
+    {
+      "source": "firmware/components/audio_stream/include/audio_stream.h",
+      "destination": "firmware/components/audio_stream/include/audio_stream.h",
+      "sha256": "b5714d468c3f1838b4b8a07f294de32131ca2c632e8fa0b10bcd559bbba1c263",
+      "bytes": 1220
+    },
+    {
+      "source": "firmware/components/audio_stream/mp3_decoder_helix.c",
+      "destination": "firmware/components/audio_stream/mp3_decoder_helix.c",
+      "sha256": "4f373ad18f668257da77817672dae310ccfe063e45f452240694cd7a1a0bc139",
+      "bytes": 259
+    },
+    {
+      "source": "firmware/components/audio_stream/mp3_decoder_helix.h",
+      "destination": "firmware/components/audio_stream/mp3_decoder_helix.h",
+      "sha256": "68f4f84d8ae11edf5697152fb98891d96a55deddcb4e8ae06b69860ca39fac85",
+      "bytes": 176
+    },
+    {
+      "source": "firmware/components/netease_client/CMakeLists.txt",
+      "destination": "firmware/components/netease_client/CMakeLists.txt",
+      "sha256": "27d9ac4be229832fd4c822514947fe15ce76cc0dd96c20b978128fe52d44f605",
+      "bytes": 123
+    },
+    {
+      "source": "firmware/components/netease_client/idf_component.yml",
+      "destination": "firmware/components/netease_client/idf_component.yml",
+      "sha256": "76634200a2338ad3aea31f447c361491194fccea6851fbdd9adc21ad18f7fa2d",
+      "bytes": 38
+    },
+    {
+      "source": "firmware/components/netease_client/include/netease_client.h",
+      "destination": "firmware/components/netease_client/include/netease_client.h",
+      "sha256": "22cc886a3596b55e5b58f5fa9e8c31ecc21176a4331d1a4a99416a6440448c2e",
+      "bytes": 4459
+    },
+    {
+      "source": "firmware/components/netease_client/netease_client.c",
+      "destination": "firmware/components/netease_client/netease_client.c",
+      "sha256": "134bed87c8978f8549c07f3ed7cecfb6b54044efe58b68fd63d3be182caafd5e",
+      "bytes": 25914
+    },
+    {
+      "source": "firmware/components/netease_direct_client/CMakeLists.txt",
+      "destination": "firmware/components/netease_direct_client/CMakeLists.txt",
+      "sha256": "cbefd3959dc8feef106f1e577cf252fa15cab642d3ad4411d83d3c2a75bfa1a0",
+      "bytes": 189
+    },
+    {
+      "source": "firmware/components/netease_direct_client/direct_http.c",
+      "destination": "firmware/components/netease_direct_client/direct_http.c",
+      "sha256": "dd9a7eddd3009c36d729f9cdee458a40cef9f5fa4b54a58e64d6d383565c155c",
+      "bytes": 26702
+    },
+    {
+      "source": "firmware/components/netease_direct_client/direct_stream.c",
+      "destination": "firmware/components/netease_direct_client/direct_stream.c",
+      "sha256": "351e076c27d4657aad849fcdbcb1ec10cd616036f81031d742d8c0f284f3690d",
+      "bytes": 13284
+    },
+    {
+      "source": "firmware/components/netease_direct_client/direct_stream.h",
+      "destination": "firmware/components/netease_direct_client/direct_stream.h",
+      "sha256": "71961c53739f33b174cfe23b30f607020ff4a5d71fdc32a882ba682371f209a0",
+      "bytes": 1284
+    },
+    {
+      "source": "firmware/components/netease_direct_client/include/netease_direct_client.h",
+      "destination": "firmware/components/netease_direct_client/include/netease_direct_client.h",
+      "sha256": "ad69e97f051973627496d100226cd323e844a05235357e53d499a4b5fbaa5287",
+      "bytes": 5610
+    },
+    {
+      "source": "firmware/components/netease_direct_client/netease_direct_client.c",
+      "destination": "firmware/components/netease_direct_client/netease_direct_client.c",
+      "sha256": "325de603f2705966ca6870391ad052be811b0a2ed8dce6fe3ab499b571dbc654",
+      "bytes": 24009
+    },
+    {
+      "source": "firmware/ai-passport/docs/hardware-design/AI_HARDWARE_DEVELOPMENT_GUIDE.zh_CN.md",
+      "destination": "docs/reference/AI_HARDWARE_DEVELOPMENT_GUIDE.zh_CN.md",
+      "sha256": "47d37a81c2c12045150c8e489f8c20c97003113c1e037f885ac6aa4cd438da44",
+      "bytes": 26996
+    },
+    {
+      "source": "firmware/ai-passport/docs/hardware-design/specifications.zh_CN.md",
+      "destination": "docs/reference/specifications.zh_CN.md",
+      "sha256": "a5e4d609549a3d965dc69bc1582f720ba80f62e6eeed0e8899a48a0d35d168f8",
+      "bytes": 1118
+    },
+    {
+      "source": "firmware/ai-passport/docs/development/hotspot-playback.zh_CN.md",
+      "destination": "docs/reference/hotspot-playback.zh_CN.md",
+      "sha256": "1cb814fde64ce9e7bd4a119c21bea858be66408dbc35d7222f464e0d6716c219",
+      "bytes": 12086
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.16)
+set(PROJECT_VER "1.0")
+set(EXTRA_COMPONENT_DIRS "../components/lizhi_direct_client"
+    "../components/audio_stream" "../ai-passport/components/bsp")
+include($ENV{IDF_PATH}/tools/cmake/project.cmake)
+project(FoloToy-Lizhi)
